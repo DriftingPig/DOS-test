@@ -17,6 +17,9 @@ dosctl status
 
 
 example of running a script with an architect:
+
 python LUT.py --role LUT-TEST --device_mode True --service DOStest
+
 architect -i HUI-TEST -c console.ini
+
 join_instance HUI-TEST
